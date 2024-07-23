@@ -1,1 +1,64 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie-Ticket-Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navbar part-->
+    <nav class="navbar">
+        <div class="navbar-wrapper">
+            <!-- Logo part -->
+            <div class="navbar-logo">
+                <p class="navbar-text">Movie-Ticket-Booking</p>
+            </div>
+            <!-- List Item -->
+            <ul class="navbar-list" id="sideMenu">
+                <li class="navbar-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="navbar-item"><a href="#" class="nav-link">Movies</a></li>
+                <li class="navbar-item"><a href="#" class="nav-link">Theaters</a></li>
+                <li class="navbar-item"><a href="#" class="nav-link">Contact</a></li> 
+            </ul>
+            <img src="images/menu-bar.png" alt="" class="menu-icon">
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <div class="flex heading-image">
+                <!-- heading part -->
+                <div class="main-description">
+                    <h1>Book Your Favorite Movie</h1>
+                    <p>Movie-Ticket-Booking offers a seamless movie ticket booking experience, allowing you to
+                         choose your preferred movie, showtime, and seats. Book in advance, skip the line!
+                    </p>
+                </div>
+
+                <!-- image part -->
+                <div class="main-image">
+                    <img src="/movie1.jpg" alt="" height="400" width="500">
+                </div>
+            </div>
+
+            <!-- search bar -->
+            <div class="search-bar">
+                <form id="search-form">
+                    <div class="input-group">
+                        <input type="text" id="search-box" placeholder="Search for movies">
+                        <button type="submit" id="search">Search</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- search results -->
+            <div id="search-result"></div>
+            <button id="show-more-btn">Show more</button>
+        </div>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+</html>
